@@ -4,7 +4,7 @@ import ProjectCard from '@/components/projectCard/ProjectCard'
 function ProjectSection() {
   return (
     <div  id='projects' className='mt-12 lg:mt-0'>
-      <h2 className="text-xl uppercase mb-0">projects</h2>
+      <h2 className="text-lg uppercase mb-0">projects</h2>
 
       <ProjectCard
         name={"linxmarketix"}
