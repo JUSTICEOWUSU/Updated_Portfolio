@@ -116,10 +116,10 @@ function ToolSection() {
 
       <div>
         <div className="flex w-full flex-wrap  space-2">
-          {myArray.map((object) => {
+          {myArray.map((object,index) => {
             const Comp = object.icon;
             return (
-              <span className="w-4/12 lg:w-3/12 block  shrink-0 shadow-sm p-5 py-7 shadow-blue-500 ">
+              <span className="w-4/12 lg:w-3/12 block  shrink-0 shadow-sm p-5 py-7 shadow-blue-500 " key={index}>
                 <div className="flex flex-col items-center justify-center">
                   <h6 className="">{object.name}</h6>
                   <span>
