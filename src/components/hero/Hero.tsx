@@ -40,10 +40,7 @@ function Hero() {
         tools. I'm driven by a constant desire to learn and take on new
         challenges, all with the aim of delivering exceptional user experiences.
       </h3>
-      <a
-        href="/Resume_Owusu Justice.pdf"
-        download="Resume_Justice Owusu.pdf"
-      >
+      <a href="/Resume_Owusu Justice.pdf" download="Resume_Justice Owusu.pdf">
         <button className="w-full block p-4 text-center font-semibold capitalize text-xl md:text-2xl shadow-blue-400 shadow-sm my-3">
           {" "}
           download resume
@@ -52,23 +49,47 @@ function Hero() {
 
       <div className="flex text-gray-600  bottom-0 w-full md:w-10/12 justify-between items-center mt-12">
         <button className="capitalize hover:text-black">
-          <FaGithub className="text-4xl" />
-          <span className="texl-xl">github</span>
+          <a
+            href="https://github.com/JUSTICEOWUSU"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-4xl" />
+            <span className="texl-xl">github</span>
+          </a>
         </button>
 
         <button className="capitalize hover:text-pink-500">
-          <CiInstagram className="text-4xl" />
-          <span className="texl-xl">instagram</span>
+          <a
+            href="https://instagram.com/_owusudev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiInstagram className="text-4xl" />
+            <span className="texl-xl">instagram</span>
+          </a>
         </button>
 
         <button className="capitalize hover:text-blue-600">
-          <CiLinkedin className="text-4xl" />
-          <span className="texl-xl">linkedIn</span>
+          <a
+            href="https://www.linkedin.com/in/justice-owusu-43a0a1299"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <CiLinkedin className="text-4xl" />
+            <span className="texl-xl">linkedIn</span>
+          </a>
         </button>
 
         <button className="capitalize hover:text-black">
-          <RiTwitterXLine className="text-4xl" />
-          <span className="texl-xl">twitter</span>
+          <a
+            href="https://twitter.com/_owusudev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <RiTwitterXLine className="text-4xl" />
+            <span className="texl-xl">twitter</span>
+          </a>
         </button>
       </div>
     </div>
