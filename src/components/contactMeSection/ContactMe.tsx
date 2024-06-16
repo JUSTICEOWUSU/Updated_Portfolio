@@ -68,7 +68,7 @@ function ContactMeBox() {
   };
 
   return (
-    <form>
+    <form className="text-[1rem] md:text-[1.1rem]">
       <CustomInput
         type={"text"}
         label={"name"}
@@ -99,7 +99,7 @@ function ContactMeSection() {
   return (
     <div id="contact" className="">
       <h2 className="text-lg uppercase mt-[5rem]">contact me</h2>
-      <p className="">
+      <p className="text-[1rem] md:text-[1.1rem] leading-6">
         For projects, collaborations, or just a friendly chat, use the form
         below. I'm eager to connect with clients, employers, and fellow
         developers.

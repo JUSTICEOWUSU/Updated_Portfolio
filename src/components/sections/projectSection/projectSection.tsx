@@ -8,8 +8,10 @@ function ProjectSection() {
 
       <ProjectCard
         name={"Frontend Quiz app"}
-        tools={"React + typescript + style Component"}
-        description={"A Keyboard Only navigation Quiz Application for frontend developers "}
+        tools={"React + typescript + styled Component"}
+        description={
+          "A Keyboard Only navigation Quiz Application for frontend developers "
+        }
         site={"https://frontend-quiz-app-gules.vercel.app/"}
         code={"https://github.com/JUSTICEOWUSU/frontend-quiz-app"}
       />
@@ -23,18 +25,19 @@ function ProjectSection() {
       />
 
       <ProjectCard
-        name={"linxmarketix"}
-        tools={"react + node js + bootstrap + express js "}
-        description={"Agency app for effortless digital marketing"}
-        site={"https://linxmarketix.vercel.app/"}
-        code={"https://github.com/JUSTICEOWUSU/LINXMARKETIX"}
-      />
-      <ProjectCard
         name={"nasa mission control"}
         tools={"nodejs + express + mongo db"}
         description={"Mission control api for Nasa space exploration"}
         site={"https://nasa-mission-control-api.vercel.app/"}
         code={"https://github.com/JUSTICEOWUSU/NASA-MISSION-CONTROL-API"}
+      />
+
+      <ProjectCard
+        name={"linxmarketix"}
+        tools={"react + node js + bootstrap + express js "}
+        description={"Agency app for effortless digital marketing"}
+        site={"https://linxmarketix.vercel.app/"}
+        code={"https://github.com/JUSTICEOWUSU/LINXMARKETIX"}
       />
     </div>
   );

@@ -16,6 +16,8 @@ import {
   SiJquery,
   SiGraphql,
   SiTailwindcss,
+  SiJest,
+  SiStyledcomponents,
 } from "react-icons/si";
 
 const myArray = [
@@ -47,6 +49,10 @@ const myArray = [
   {
     name: "Typescript",
     icon: SiTypescript,
+  },
+  {
+    name: "styled components",
+    icon: SiStyledcomponents,
   },
 
   {
@@ -103,6 +109,10 @@ const myArray = [
     name: "github",
     icon: BsGithub,
   },
+  {
+    name: "jest",
+    icon: SiJest,
+  },
 ];
 
 
@@ -119,11 +129,16 @@ function ToolSection() {
           {myArray.map((object,index) => {
             const Comp = object.icon;
             return (
-              <span className="w-4/12 lg:w-3/12 block  shrink-0 shadow-sm p-5 py-7 shadow-blue-500 " key={index}>
+              <span
+                className="w-4/12 lg:w-3/12 block  shrink-0 shadow-sm p-5 py-7 shadow-blue-500 "
+                key={index}
+              >
                 <div className="flex flex-col items-center justify-center">
-                  <h6 className="">{object.name}</h6>
+                  <h6 className="text-[1rem] md:text-[1.1rem]">
+                    {object.name}
+                  </h6>
                   <span>
-                    <Comp className="text-md" />
+                    <Comp className="text-[1rem] md:text-[1.1rem]" />
                   </span>
                 </div>
               </span>

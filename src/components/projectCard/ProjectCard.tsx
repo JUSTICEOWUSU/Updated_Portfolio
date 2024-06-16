@@ -17,9 +17,9 @@ function ProjectCard({
 }) {
   return (
     <div className=" block w-full px-5 py-9 shadow-md bg-blue-200 shadow-blue-400 hover:shadow-blue-600 my-8">
-      <span className="text-lg block capitalize">{name}</span>
-      <span className="text-blue-600  text-sm block uppercase">{tools}</span>
-        <span className="block"> {description}</span>
+      <span className="text-[1.3rem] block capitalize md:text-[1.4rem]">{name}</span>
+      <span className="text-blue-600  text-[0.9rem] block uppercase py-3 md:text-[1rem]">{tools}</span>
+        <span className="block text-[0.9rem] md:text-[1rem]"> {description}</span>
           
       <a
         href={site}

@@ -33,10 +33,10 @@ function Hero() {
         />
       </div>
 
-      <h3 className="my-6 ">
+      <h3 className="my-6 text-[1rem] leading-6 md:text-[1.1rem]">
         I'm a passionate web developer skilled in creating web applications that
         seamlessly blend frontend and backend functionalities. I specialize in
-        crafting functional and visually appealing websites using the latest
+        crafting functional and visually appealing web apps using the latest
         tools. I'm driven by a constant desire to learn and take on new
         challenges, all with the aim of delivering exceptional user experiences.
       </h3>
