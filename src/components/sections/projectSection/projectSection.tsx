@@ -7,6 +7,14 @@ function ProjectSection() {
       <h2 className="text-lg uppercase mb-0">projects</h2>
 
       <ProjectCard
+        name={"Frontend Quiz app"}
+        tools={"React + typescript + style Component"}
+        description={"A Quiz Application for frontend developers "}
+        site={"https://frontend-quiz-app-gules.vercel.app/"}
+        code={"https://github.com/JUSTICEOWUSU/frontend-quiz-app"}
+      />
+
+      <ProjectCard
         name={"justice clothing"}
         tools={"typescript + nodejs + css module"}
         description={"E-commerce app for seamless online shopping "}
